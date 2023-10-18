@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>xiaoya</Name>
+  <Repository>xiaoyaliu/alist</Repository>
+  <Registry>https://hub.docker.com/r/xiaoyaliu/alist/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/xiaoyaliu/alist/</Support>
+  <Project/>
+  <Overview>Xiaoya Alist is a site aggregated on Alist built for Alibaba Cloud Drive, boasting a wealth of resources and meticulous categorization.&#xD;
+Unraid&#x4F18;&#x60E0;&#x6298;&#x6263;&#x7801;55&#x6298;&#xFF1A;&#x5927;&#x9E4F;YYDS&#xD;
+Unraid discount code for 45% off: &#x5927;&#x9E4F;YYDS</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:5678]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/anpplex/xiaoya/blob/main/XiaoyaAlist.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1697545911</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="data_config" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/xiaoya</Config>
+  <Config Name="WebUI_Port" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5678</Config>
+</Container>
